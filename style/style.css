@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    
+}
+.container{
+    max-width: 1960px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ .container .navbars{
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .navbars .nav_left{
+    width: 55%;
+    height: 100%;
+    
+}
+.container .navbars .nav_left ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 50px;
+}
+.container .navbars .nav_left ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #3C4043;
+}
+.container .navbars .nav_right{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .navbars .nav_right i{
+    font-size: 30px;
+    cursor: pointer;
+}
+/* Navbars qismi boshlandi */
+.head{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bacground_img.png) no-repeat center center /cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head .head_text{
+    width: 400px;
+    height: 350px;
+    
+}
+.head .head_tex2{
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid orange; */
+}
+.head .head_text .gift{
+    font-size: 59px;
+    font-family: 'Roboto', sans-serif;
+    color:#3C4043;
+}
+.head .head_text .need{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    color:#3C4043;
+}
+ .container .head .head_text .buttons{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .head .head_text .buttons .btn
+{
+    width: 180px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(225,236,242);
+    /* 225,236,242 */
+    margin-top: 30px;
+    cursor: pointer;
+}
+.container .head .head_text .buttons .btn:hover{
+    border: 2px solid 
+#3C4043;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.cards .cards_text{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: 
+    #3C4043;
+}
+.cards .cards2{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    padding: 40px 0px;
+}
+.cards .cards2 .box{
+    width: 180px;
+    height: 300px;
+    /* background: url(../img/img_1.png); */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+   
+}
+.cards .cards2 .box .wach{
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.cards .cards2 .box .box_1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FA;
+    border-radius: 20px;
+}
+.cards .cards2 .box .box_1 img{
+    width: 180px;
+    height: 200px;
+    /* object-fit: cover; */
+}
+.cards .cards2 .box .img9{
+    width: 130px;
+}
+/* Cards bulmi tugadi */
+/* Bals Bulmi Boshlandi */
+.container .bals{
+    width: 90%;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.bals .bals_left{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bals .bals_left img{
+    width: 100%;
+    height: 100%;
+}
+.bals .bals_right{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bals .bals_right .holiday{
+    width: 350px;
+    height: auto;
+}
+.bals .bals_right .holiday .this{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+.bals .bals_right .holiday  .stem{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    color: #3C4043;
+}
+.bals .bals_right .holiday  .more{
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
